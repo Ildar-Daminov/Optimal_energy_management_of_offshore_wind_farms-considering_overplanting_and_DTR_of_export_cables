@@ -31,7 +31,7 @@ II. Using the precalculated data to reproduce the particular figure :
 ## Files description
 
 Principal scripts:
-* main.m - the script which launches all calculations at a computer. Note that the entire computations may take several days (due to neccesity to launch heavy and numerous optimization)
+* main.m - the script which launches all calculations at a computer. Note that the entire computations may take several days (due to neccesity to launch heavy and numerous optimization). Therefore, it is possible to use  precalculated data e.g. main_simulations_case1.mat to avoid these heavy calculations
 * Creating_Figures.m - this script repoduces the figures from the conference paper by using the precalculated data. 
 
 Additional functions: 
