@@ -13,7 +13,6 @@ The electricity cost from offshore wind turbines has significantly declined over
 
 ![2022_poster_CEL4Wind_version_1 1 - Copie](https://user-images.githubusercontent.com/73365375/205688221-a68c9a41-dcc3-4ac8-8631-2af412f1205b.jpg)
 
-
 ## How to run a code 
 There are two ways how you may run this code: I. Do simulations yourself (but note that it takes few days) or II. Use precalculated data 
   
