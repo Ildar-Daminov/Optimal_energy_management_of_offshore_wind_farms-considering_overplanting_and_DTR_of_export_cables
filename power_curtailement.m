@@ -23,12 +23,12 @@ I=I_input;
 % Save I as I_init
 I_init=I;
 
-% turn on the mode "optimization" in IEC60853_2_RTE_15min.m
+% turn on the mode "optimization" in cable_thermal_model_IEC_60853_2.m
 optimization=1;
 
 % Calculate Tmax and T
-[Tmax,T,~]=IEC60853_2_RTE_15min(I);
-disp('IEC60853_2_RTE_15min is used')
+[Tmax,T,~]=cable_thermal_model_IEC_60853_2(I);
+disp('cable_thermal_model_IEC_60853_2 is used')
 
 % delete T at 00:00;
 T(1,:)=[];
@@ -66,8 +66,8 @@ if Tmax>Tmax_limit % if Tmax is greater than Tmax limit
             idx=1; % return time to zero (power shedding shift)
         end
         % Calculate the thermal regime for corrected load profile
-        [~,T,~]=IEC60853_2_RTE_15min(I);
-        disp('IEC60853_2_RTE_15min is used')
+        [~,T,~]=cable_thermal_model_IEC_60853_2(I);
+        disp('cable_thermal_model_IEC_60853_2 is used')
         
         % delete T==0
         T(1,:)=[];
@@ -84,7 +84,7 @@ end % end if Tmax>Tmax_limit
 % Results
 I_output=I;
 
-optimization=[]; % turn off the mode "optimization" in IEC60853_2_RTE_15min.m
+optimization=[]; % turn off the mode "optimization" in cable_thermal_model_IEC_60853_2.m
 
 % figure('DefaultAxesFontSize',14)
 % yyaxis left

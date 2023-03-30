@@ -1,19 +1,13 @@
-[Upd: 14 mars 2023] Final code IEC60853_2_RTE_15min.m was published. 
-
 # Optimal energy management of offshore wind farms considering the combination of overplanting and dynamic rating
 <img align="left" alt="Coding" width="200" src="https://www.cigre.org/userfiles/images/Events/2022/session-banner1.jpg">
 
   
 This repository shares the MATLAB code and data for the conference paper 📋:\
-Ildar Daminov, Anne Blavette, Salvy Bourguet, Didier Trichet, Guillaume Wasselynck, Laurent Dupont, Hamid Ben Ahmed, Thomas Soulard, and Pierre Warlop, ["Optimal energy management of offshore wind farms considering the combination of overplanting and dynamic rating,"](https://hal.archives-ouvertes.fr/hal-03767635/) in CIGRE session, Paris, France, 2022
+Ildar Daminov, Anne Blavette, Salvy Bourguet, Didier Trichet, Guillaume Wasselynck, Laurent Dupont, Hamid Ben Ahmed, Thomas Soulard, and Pierre Warlop, "Optimal energy management of offshore wind farms considering the combination of overplanting and dynamic rating," in CIGRE session, Paris, France, 2022
   
   
 ## Paper's abstract
 The electricity cost from offshore wind turbines has significantly declined over the past decade. However, in the context of energy transition, the further reduction in electricity generation costs remains a forefront subject. One possibility is to enable offshore wind farms to have a greater installed capacity than their transmission infrastructure, known as “overplanting”. This allows increasing their energy generation revenues while requiring some curtailments of their power output during the most energy-rich periods of the year. Also, export cables may have a high thermal inertia, so they can be fully loaded for several days before the cable reaches the maximum permissible temperature (usually 90℃ for XLPE cables). Hence, some Transmission System Operators (TSOs) have recently allowed offshore wind farm operators to export more power than the transmission infrastructure may deliver in the steady-state conditions. This is known as the «dynamic thermal rating» (DTR). DTR combined with overplanting can lead to a significant reduction in the Levelized Cost Of Energy (LCOE) of offshore wind farms. This paper examines the benefits of improving the electricity production commitment strategies against business-as-usual approaches based on the 50% quantile, called P50. In this perspective, a theoretical case is investigated, where the day-ahead and imbalance prices would be known in advance in order to define an optimized power production commitment. This theoretical case intends to define the upper bound on the annual revenue that could be gained by enhanced forecasts on both the production and the day-ahead and real-time energy prices. The study is based on a thermal model of a generic export cable, built per IEC standards 60287 and 60853-2, with data provided by the French TSO. The model was validated against simulation results provided by the French TSO. Historical day-ahead and imbalance prices are considered, as well as forecast and actual measured production profiles from offshore wind farms provided by the Belgian TSO. The source code developed in the project described in this paper, along with relevant data, and a related documentation will soon be provided in open-access repositories available from the project official webpage.
-
-![2022_poster_CEL4Wind_version_1 1 - Copie](https://user-images.githubusercontent.com/73365375/205688221-a68c9a41-dcc3-4ac8-8631-2af412f1205b.jpg)
-<p align="center">Figure 1 Illustration of the electrical infrastructure of Offshore wind farm</p>
-
 ## How to run a code 
 There are two ways how you may run this code: I. Do simulations yourself (but note that it takes few days) or II. Use precalculated data 
   
@@ -35,7 +29,7 @@ II. Using the precalculated data to reproduce the particular figure :
 ## Files description
 
 Principal scripts:
-* main.m - the script which launches all calculations at a computer. Note that the entire computations may take several days (due to neccesity to launch heavy and numerous optimization). Therefore, it is possible to use  precalculated data e.g. main_simulations_case1.mat to avoid these heavy calculations
+* main.m - the script which launches all calculations at a computer. Note that the entire calculates may take several days (due to neccesity to launch heavy and numerous optimization)
 * Creating_Figures.m - this script repoduces the figures from the conference paper by using the precalculated data. 
 
 Additional functions: 

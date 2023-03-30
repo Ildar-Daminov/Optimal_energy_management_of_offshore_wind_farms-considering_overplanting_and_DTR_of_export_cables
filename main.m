@@ -619,7 +619,7 @@ while ~(idx_Start+96*(days-1)+95>idx_Start+96*(365-1)+95) % till the last day (J
         I_test=P2I(P_test);
         
         % Finding Tmax Temeprature
-        [Tmax,Temperature,~]=IEC60853_2_RTE_15min(I_test);
+        [Tmax,Temperature,~]=cable_thermal_model_IEC_60853_2(I_test);
         
         difference=Tmax-90;
         if Tmax>90
