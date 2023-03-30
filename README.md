@@ -33,7 +33,7 @@ Principal scripts:
 * Creating_Figures.m - this script repoduces the figures from the conference paper by using the precalculated data. 
 
 Additional functions: 
-* IEC60853_2_RTE_15min.m - a thermal model of submarine export cable 225 kV according to the standard IEC 60853-2 (15 min is a time resolution of input data)
+* cable_thermal_model_IEC_60853_2.m - a thermal model of submarine export cable 225 kV according to the standard IEC 60853-2 (15 min is a time resolution of input data)
 * losses_partial_transients.m - this script estimates losses in a export cable. Also, it calculates partial transient (p 33 IEC 60853-2) of cable and its environment  
 * losses_partial_transients_new.m - the same as losses_partial_transients.m but it requires 2 additional inputs (R_AC,Lambda1_new). These two parameters are changing as a function of temperature
 * temperature_correction_on_losses_new.m -this function adjusts the final profile of temperature rises as a function of losses change due to a temperature variations.
