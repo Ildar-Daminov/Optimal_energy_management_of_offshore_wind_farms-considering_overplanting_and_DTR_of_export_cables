@@ -1,3 +1,5 @@
+Upd (30/03/2023): Some names were changed in code: IEC60853_2_RTE_15min.m ->  cable_thermal_model_IEC_60853_2.m
+
 # Optimal energy management of offshore wind farms considering the combination of overplanting and dynamic rating
 <img align="left" alt="Coding" width="200" src="https://www.cigre.org/userfiles/images/Events/2022/session-banner1.jpg">
 
