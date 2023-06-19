@@ -1,4 +1,5 @@
 Upd (30/03/2023): Some names were changed in code: IEC60853_2_15min.m ->  cable_thermal_model_IEC_60853_2.m
+
 Upd (19/06/2023): Extended article and MATLAB code are published in [GitHub repository](https://github.com/Ildar-Daminov/Economic-performance-of-overplanted-offshore-wind-farm-under-several-commitment-strategies-and-DTR)
 
 # Optimal energy management of offshore wind farms considering the combination of overplanting and dynamic rating
