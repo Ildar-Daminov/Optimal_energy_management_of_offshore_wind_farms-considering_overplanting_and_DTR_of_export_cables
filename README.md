@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/513122991.svg)](https://zenodo.org/doi/10.5281/zenodo.12509973)
+
 Upd (19/06/2023): Extended article and MATLAB code are published in [GitHub repository](https://github.com/Ildar-Daminov/Economic-performance-of-overplanted-offshore-wind-farm-under-several-commitment-strategies-and-DTR)
 
 Upd (30/03/2023): Some names were changed in code: IEC60853_2_15min.m ->  cable_thermal_model_IEC_60853_2.m
